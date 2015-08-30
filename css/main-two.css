@@ -87,6 +87,31 @@ button:hover {
   padding-top: 45px;
 }
 
+.sec-two-header {
+  text-align: center;
+  margin: auto;
+  color: #989898;
+  width: 42%;
+  width: 475px;
+  font-weight: lighter;
+  line-height: 1.4em;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.phone-area {
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  width: 23%;
+  height: 23%;
+}
+
+.phone-area img {
+  width: 100%;
+  height: auto;
+}
+
 /*@media only screen and (max-width: 901px) {
   .column {
     padding: 10px;
@@ -116,6 +141,11 @@ button:hover {
      display: none;
   }
 
+  .sec-two-header {
+    font-size: 50%;
+    width: auto;
+
+  }
 
   /*.column {
     float: none;
