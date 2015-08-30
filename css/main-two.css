@@ -1,5 +1,5 @@
 /*.sec-one {
-  background-color: red;
+  background-color: #2D3E4F;
   margin:auto;
   width: 900px;
   height: auto;
@@ -13,6 +13,13 @@
   color: white;
   text-align: center;
 }
+
+button {
+  background-color: #E44D42;
+  color: #989898;
+  text-align: center;
+}
+
 h5 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
