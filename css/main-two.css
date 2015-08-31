@@ -76,6 +76,8 @@ button:hover {
   background-color: white;
   width: 100%;
   height: 615px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-text-two {
@@ -96,20 +98,75 @@ button:hover {
   font-weight: lighter;
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
+}
 
+.sec-two-main-container {
+  display: flex;
+  flex: 1;
+}
+
+.sec-two-flexcontainer-center {
+  flex: 0 0 23em;
 }
 
 .phone-area {
   text-align: center;
-  margin: auto;
-  padding: 30px;
-  width: 23%;
-  height: 23%;
+  /*margin: auto;*/
+  padding-top: 30px;
+  width: 77%;
+  /*height: 23%;*/
 }
 
 .phone-area img {
   width: 100%;
   height: auto;
+}
+
+.sec-two-flexcontainer-left-side  {
+  flex: 0 0 23em;
+  order: -1;
+  padding-top: 80px;
+}
+
+.title-left-column {
+  /*flex-direction: column;*/
+  /*width: 200px;*/
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #2D3E4F;
+
+}
+
+.left-side {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #6F6F6F;
+  width: 55%;
+  font-size: 11px;
+  line-height: 1.6em;
+}
+
+.sec-two-flexcontainer-right-side {
+  flex: 0 0 23em;
+  padding-top: 80px;
+}
+
+.title-right-column {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #2D3E4F;
 }
 
 /*@media only screen and (max-width: 901px) {
