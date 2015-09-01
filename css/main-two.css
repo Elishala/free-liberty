@@ -260,13 +260,18 @@ button:hover {
 
 }
 
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
 .flex-sq-group {
   display: flex;
   flex-flow: row wrap;
   max-width: 75%;
 }
-
-li {
+/*this used to be li, which held it all together*/
+.sec-three-card {
   display: flex;
   width: 33%;
   margin: auto;
@@ -412,6 +417,109 @@ img {
   margin: 10px;
   line-height: 100px;
 
+}
+
+/*beginning of section five*/
+
+.sec-five {
+  background-color: #2D3E4F;
+  width: 100%;
+  /*height: 872px;*/
+  color: white;
+}
+
+.hero-text-five {
+  font-family: 'Poiret One', cursive;
+  color: white;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: lighter;
+  padding-top: 7%;
+}
+
+.testimonials-littleboxes-flexcontainer {
+  padding: 7% 14%;
+  margin: 0;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -mox-box;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.little-boxes {
+  width: 100%;
+  color: white;
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  /*line-height: 100px;*/
+}
+
+.little-boxes-quote img{
+  width: 100%;
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+}
+
+.sec-five-header {
+  text-align: center;
+  margin: auto;
+  color: #989898;
+  width: 42%;
+  font-weight: lighter;
+  line-height: 1.4em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.reference-quote {
+  text-align: center;
+  margin: auto;
+  color: white;
+  width: 100%;
+  font-weight: lighter;
+  line-height: 1.4em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.section-five-line {
+  width: 75%;
+  color: #dae4e5;
+  font-weight: lighter;
+  margin: inherit;
+}
+
+.testimonials-flexcontainer {
+  padding: 7% 14%;
+  margin: 0;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -mox-box;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.testimonials-box {
+  background: white;
+  padding: 5px;
+  width: 165px;
+  height: 75px;
+  margin: 10px;
+  line-height: 100px;
 }
 
 /*@media only screen and (max-width: 901px) {
