@@ -380,20 +380,28 @@ li {
   width: 155px;
   height: 105px;
   margin: 10px;
-  line-height: 100px;
+  /*line-height: 100px;*/
 }
 
 .img-area-sec-four {
+  text-align: -webkit-center;
+  text-align: center;
+  width: 100%;
+  /*padding-top: 25px;*/
+  padding-top: 17%;
+}
 
+img {
+  width: 10%;
 }
 
 .project-title {
   color: white;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-size: 16px;
+  font-size: 11px;
   font-weight: lighter;
-
+  padding-top: inherit;
 }
 
 .black-box {
