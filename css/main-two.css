@@ -72,6 +72,8 @@ button:hover {
   height: auto;
 }
 
+/*beginnning of section two*/
+
 .sec-two {
   background-color: white;
   width: 100%;
@@ -172,7 +174,7 @@ button:hover {
 }
 
 .sec-two-flexcontainer-right-side {
-  flex: 0 0 23em;
+  /*flex: 0 0 23em;*/
   padding-top: 80px;
   text-align: left;
 }
@@ -218,10 +220,12 @@ button:hover {
   margin: inherit;
 }
 
+/*beginning of section three*/
+
 .sec-three {
     background-color: #2D3E4F;
     width: 100%;
-    height: 615px;
+    height: 872px;
     color: white;
     /*padding-top: 65px;*/
 }
@@ -235,17 +239,97 @@ button:hover {
   padding-top: 82px;
 }
 
-.sec-three-header {
+.main-sec-three-header {
   text-align: center;
   margin: auto;
   color: #989898;
   width: 42%;
-  width: 475px;
+  /*width: 475px;*/
   font-weight: lighter;
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
+  padding-bottom: 4%;
 }
 
+.sec-three-flexcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: auto;
+}
+
+.flex-sq-group {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+li {
+  display: flex;
+  width: 27%;
+  margin: auto;
+}
+
+.flex-card {
+  display: flex;
+  flex-flow: row wrap;
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
+  width: 27%;
+}
+
+.img-area-sec-three {
+  text-align: center;
+  margin: auto;
+  width: 19%;
+  margin-bottom: -17px;
+}
+
+.img-area-sec-three img {
+  width: 100%;
+  height: auto;
+}
+
+.flex-card-content {
+  display: flex;
+  flex: 1 0 auto;
+  flex-flow: row wrap;
+}
+
+.sec-three-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.sec-three-text {
+  flex: 1 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #989898;
+  /*width: 55%;*/
+  font-size: 10px;
+  line-height: 1.6em;
+  /*margin-top: -13px;*/
+  max-width: 27%;
+  text-align: center;
+  margin: auto;
+}
+
+.sec-three-header-two {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+/*li {
+  width: 27%;
+  height: 27%;
+  margin: auto;
+  justify-content: center;
+}*/
 
 
 /*@media only screen and (max-width: 901px) {
