@@ -75,7 +75,7 @@ button:hover {
 .sec-two {
   background-color: white;
   width: 100%;
-  height: 615px;
+  height: 872px;
   display: flex;
   flex-direction: column;
 }
@@ -101,15 +101,21 @@ button:hover {
 }
 
 .sec-two-main-container {
+  display: -webkit-flex;
   display: flex;
   flex: 1;
 }
 
 .sec-two-flexcontainer-center {
-  flex: 0 0 23em;
+  display: -webkit-flex;
+  flex: 0 0 33%;
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
 
 .phone-area {
+  /*display: -webkit-flex;
+  display: flex;*/
   text-align: center;
   /*margin: auto;*/
   padding-top: 30px;
@@ -145,7 +151,8 @@ button:hover {
 }
 
 .sec-two-line {
-  width: 50%;
+  width: 53%;
+  color: #dae4e5;
 }
 
 .left-side {
@@ -157,6 +164,7 @@ button:hover {
   font-weight: lighter;
   color: #6F6F6F;
   max-width: 76%;
+  min-width: 55%;
   font-size: 11px;
   line-height: 1.6em;
   text-align: right;
@@ -179,6 +187,17 @@ button:hover {
   color: #2D3E4F;
 }
 
+.title-right-column-1 {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #E44D42;
+  text-decoration: underline;
+}
+
 .right-side {
   display: flex;
   flex-grow: 1;
@@ -192,6 +211,42 @@ button:hover {
   line-height: 1.6em;
   text-align: left;
 }
+
+.sec-two-line-right {
+  width: 53%;
+  color: #dae4e5;
+  margin: inherit;
+}
+
+.sec-three {
+    background-color: #2D3E4F;
+    width: 100%;
+    height: 615px;
+    color: white;
+    /*padding-top: 65px;*/
+}
+
+.hero-text-three {
+  font-family: 'Poiret One', cursive;
+  color: white;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: lighter;
+  padding-top: 82px;
+}
+
+.sec-three-header {
+  text-align: center;
+  margin: auto;
+  color: #989898;
+  width: 42%;
+  width: 475px;
+  font-weight: lighter;
+  line-height: 1.4em;
+  font-family: 'Roboto', sans-serif;
+}
+
+
 
 /*@media only screen and (max-width: 901px) {
   .column {
@@ -228,6 +283,36 @@ button:hover {
 
   }
 
+  .sec-two-main-container {
+    flex-direction: row;
+    flex: 1;
+    max-width: 75%;
+  }
+
+  .sec-two-flexcontainer-left-side {
+    display: flex;
+    max-width: 25%;
+  }
+
+  .sec-two-flexcontainer-right-side {
+    display: flex;
+    max-width: 25%;
+
+  }
+
+  .sec-two-flexcontainer-center {
+    display: flex;
+    max-width: 25%;
+  }
+
+ .phone-area {
+    width: 33%;
+ }
+
+
+
+
+
   /*.column {
     float: none;
     width: 100%;
@@ -235,6 +320,8 @@ button:hover {
     margin: 0 0 40px 0;
   }
   #hero h2 {
-    font-size: 200%;*/
-  }
+    font-size: 200%;
+  }*/
+
+
 }
