@@ -254,18 +254,23 @@ button:hover {
 .sec-three-flexcontainer {
   display: flex;
   flex-flow: row wrap;
-  width: auto;
+  /*width: 100%;*/
+  margin: 0 auto;
+  padding-left: 10%;
+
 }
 
 .flex-sq-group {
   display: flex;
   flex-flow: row wrap;
+  max-width: 75%;
 }
 
 li {
   display: flex;
-  width: 27%;
+  width: 33%;
   margin: auto;
+  padding-bottom: 4%;
 }
 
 .flex-card {
@@ -273,14 +278,14 @@ li {
   flex-flow: row wrap;
   /*flex-direction: row;
   flex-wrap: wrap;*/
-  width: 27%;
+  /*width: 27%;*/
 }
 
 .img-area-sec-three {
   text-align: center;
   margin: auto;
   width: 19%;
-  margin-bottom: -17px;
+  /*margin-bottom: -17px;*/
 }
 
 .img-area-sec-three img {
@@ -290,7 +295,7 @@ li {
 
 .flex-card-content {
   display: flex;
-  flex: 1 0 auto;
+  /*flex: 1 0 auto;*/
   flex-flow: row wrap;
 }
 
@@ -300,6 +305,7 @@ li {
   color: white;
   text-align: center;
   font-size: 1.1em;
+  padding-left: 20%;
 }
 
 .sec-three-text {
@@ -311,9 +317,9 @@ li {
   font-size: 10px;
   line-height: 1.6em;
   /*margin-top: -13px;*/
-  max-width: 27%;
+  max-width: 75%;
   text-align: center;
-  margin: auto;
+  padding-left: 12%;
 }
 
 .sec-three-header-two {
