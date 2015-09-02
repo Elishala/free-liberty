@@ -425,7 +425,7 @@ img {
   background-color: #2D3E4F;
   width: 100%;
   /*height: 872px;*/
-  color: white;
+  /*color: white;*/
 }
 
 .hero-text-five {
@@ -438,8 +438,8 @@ img {
 }
 
 .testimonials-littleboxes-flexcontainer {
-  padding: 7% 14%;
-  margin: 0;
+  padding: 0% 28%;
+  margin: 0 72px;
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -mox-box;
@@ -454,20 +454,27 @@ img {
 
 .little-boxes {
   width: 100%;
-  color: white;
-  padding: 5px;
+  background-color: white;
+  /*padding: 5px;*/
   width: 35px;
   height: 35px;
-  margin: 10px;
+  margin: 5px;
+  border-radius: 3px;
   /*line-height: 100px;*/
 }
 
-.little-boxes-quote img{
+.little-boxes-quote{
   width: 100%;
-  padding: 5px;
+  /*padding: 5px;*/
   width: 35px;
   height: 35px;
-  margin: 10px;
+  margin: 5px;
+}
+
+.quote-mark img{
+  width: 100%;
+  border-radius: 3px;
+
 }
 
 .sec-five-header {
@@ -478,6 +485,9 @@ img {
   font-weight: lighter;
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
+  font-size: x-small;
+  font-size: 9px;
+  padding-top: 2%;
 }
 
 .reference-quote {
@@ -488,18 +498,19 @@ img {
   font-weight: lighter;
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 11px;
+  padding-top: 2%;
 }
 
 .section-five-line {
   width: 75%;
   color: #dae4e5;
   font-weight: lighter;
-  margin: inherit;
+  margin-top: 3%;
 }
 
 .testimonials-flexcontainer {
-  padding: 7% 14%;
+  padding: 7% 8%;
   margin: 0;
   -ms-box-orient: horizontal;
   display: -webkit-box;
@@ -516,10 +527,38 @@ img {
 .testimonials-box {
   background: white;
   padding: 5px;
-  width: 165px;
-  height: 75px;
+  width: 120px;
+  height: 55px;
   margin: 10px;
-  line-height: 100px;
+  margin: 1%;
+  /*line-height: 100px;*/
+}
+
+/*beginning of section six*/
+
+.sec-six {
+    width: 100%;
+    color: white;
+}
+
+.hero-text-six {
+  font-family: 'Poiret One', cursive;
+  color: #2D3E4F;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: lighter;
+  padding-top: 7%;
+}
+
+.sec-six-header {
+  text-align: center;
+  margin: auto;
+  color: #989898;
+  width: 35%;
+  font-weight: lighter;
+  line-height: 1.4em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
 }
 
 /*@media only screen and (max-width: 901px) {
