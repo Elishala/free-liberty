@@ -168,13 +168,15 @@ button:hover {
   font-weight: lighter;
   color: #2D3E4F;
   text-align: right;
-  padding-right: 12%;
+  padding-right: 32%;
 
 }
 
 .sec-two-line {
-  width: 75%;
+  width: 40%;
   color: #dae4e5;
+  padding-left: 25%
+  float: left;
 }
 
 .left-side {
@@ -187,12 +189,12 @@ button:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #6F6F6F;
-  width: 75%;
+  width: 50%;
   /*min-width: 55%;*/
   font-size: 11px;
   line-height: 1.6em;
   text-align: right;
-  padding-left: 13%;
+  padding-left: 17%;
 }
 
 .sec-two-flexcontainer-right-side {
@@ -243,7 +245,7 @@ button:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #6F6F6F;
-  width: 75%;
+  width: 50%;
   font-size: 11px;
   line-height: 1.6em;
   text-align: left;
@@ -251,7 +253,7 @@ button:hover {
 }
 
 .sec-two-line-right {
-  width: 73%;
+  width: 50%;
   color: #dae4e5;
   margin: inherit;
 }
@@ -272,7 +274,7 @@ button:hover {
   text-align: center;
   font-size: 1.7em;
   font-weight: lighter;
-  padding-top: 82px;
+  padding-top: 10%;
 }
 
 .main-sec-three-header {
@@ -292,8 +294,8 @@ button:hover {
   flex-flow: row wrap;
   justify-content: center;
   /*width: 100%;*/
-  margin: 0 auto;
-  padding-left: 10%;
+  /*margin: 0 auto;
+  padding-left: 10%;*/
 
 }
 
@@ -306,13 +308,15 @@ ul li {
   display: flex;
   flex-flow: row wrap;
   max-width: 75%;
+  justify-content: center;
 }
 /*this used to be li, which held it all together*/
 .sec-three-card {
   display: flex;
-  width: 33%;
+  width: 25%;
   margin: auto;
-  padding-bottom: 4%;
+  padding: 3%;
+  flex: 0 0 auto;
 }
 
 .flex-card {
@@ -335,6 +339,17 @@ ul li {
   height: auto;
 }
 
+.img-area-sec-three-lightbulb {
+  text-align: center;
+  margin: auto;
+  width: 15%;
+}
+
+.img-area-sec-three-lightbulb img {
+  width: 100%;
+  height: auto;
+}
+
 .flex-card-content {
   display: flex;
   /*flex: 1 0 auto;*/
@@ -348,6 +363,15 @@ ul li {
   text-align: center;
   font-size: 1.1em;
   padding-left: 20%;
+}
+
+.sec-three-header-time {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+  padding-left: 6%;
 }
 
 .sec-three-text {
