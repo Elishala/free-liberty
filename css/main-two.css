@@ -129,7 +129,7 @@ button:hover {
 .phone-area {
   text-align: center;
   margin: auto;
-  padding-top: 30px;
+  padding-top: 10%;
   width: 77%;
   /*display: -webkit-flex;
   display: flex;
@@ -290,6 +290,7 @@ button:hover {
 .sec-three-flexcontainer {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   /*width: 100%;*/
   margin: 0 auto;
   padding-left: 10%;
@@ -621,17 +622,17 @@ td, th {
   text-align: left;
 }
 
-/*@media only screen and (max-width: 901px) {
-  .column {
-    padding: 10px;
+@media only screen and (max-width: 901px) {
+  .phone-area {
+    display: none;
   }
-  #hero h2 {
-    font-size: 200%:
+  .sec-two-flexcontainer-left-side {
+    flex-grow: 3;
   }
-  #main-content h3 {
-    font-size: 150%;
+  .sec-two-flexcontainer-right-side {
+    flex-grow: 3;
   }
-}*/
+}
 
 @media only screen and (max-width: 640px)  {
   .hero-text {
@@ -656,31 +657,31 @@ td, th {
 
   }
 
-  .sec-two-main-container {
+  .sec-two-main-flexcontainer {
     flex-direction: row;
-    flex: 1;
-    max-width: 75%;
+    flex: 2;
+    max-width: 100%;
   }
 
   .sec-two-flexcontainer-left-side {
-    display: flex;
-    max-width: 25%;
+    /*display: flex;*/
+    max-width: 50%;
   }
 
   .sec-two-flexcontainer-right-side {
-    display: flex;
-    max-width: 25%;
+    /*display: flex;*/
+    max-width: 50%;
 
   }
 
   .sec-two-flexcontainer-center {
-    display: flex;
-    max-width: 25%;
+    display: none;
+    /*max-width: 25%;*/
   }
 
  .phone-area {
-    width: 33%;
- }
+     display: none;
+   }
 
 
 
