@@ -77,18 +77,19 @@ button:hover {
 .sec-two {
   background-color: white;
   width: 100%;
-  height: 872px;
-  display: flex;
-  flex-direction: column;
+  height: 900px;
+
 }
 
 .hero-text-two {
+  font-family: sans-serif;
   font-family: 'Poiret One', cursive;
   color: #2D3E4F;
   text-align: center;
   font-size: 1.7em;
   font-weight: lighter;
   padding-top: 45px;
+  padding-top: 7%;
 }
 
 .sec-two-header {
@@ -96,33 +97,43 @@ button:hover {
   margin: auto;
   color: #989898;
   width: 42%;
-  width: 475px;
+  /*width: 475px;*/
   font-weight: lighter;
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
 }
 
-.sec-two-main-container {
+.sec-two-main-flexcontainer {
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex: 1;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /*flex: 0 0 auto;*/
+  margin: 5%;
+  /*align-items: center;*/
 }
 
 .sec-two-flexcontainer-center {
-  display: -webkit-flex;
+  /*display: -webkit-flex;
+  display: -ms-flexbox;
+  /*-webkit-flex-direction: row;
+  flex-direction: row;
+  display: flex;*/
   flex: 0 0 33%;
-  -webkit-flex-direction: column;
-  flex-direction: column;
 }
 
 .phone-area {
-  /*display: -webkit-flex;
-  display: flex;*/
   text-align: center;
-  /*margin: auto;*/
+  margin: auto;
   padding-top: 30px;
   width: 77%;
-  /*height: 23%;*/
+  /*display: -webkit-flex;
+  display: flex;
+  height: 23%;*/
 }
 
 .phone-area img {
@@ -131,69 +142,91 @@ button:hover {
 }
 
 .sec-two-flexcontainer-left-side  {
-  flex: 0 0 23em;
-  order: -1;
-  padding-top: 80px;
+  /*display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;*/
   text-align: right;
+  /*-webkit-flex-direction: row;
+  flex-direction: row;*/
+  flex: 0 0 33%;
+  order: -1;
+  text-align: right;
+  padding-top: 80px;
+
 }
 
 .title-left-column {
-  flex-direction: column;
+  /*flex-direction: column;*/
   /*width: 200px;*/
-  display: flex;
+  /*display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;*/
   flex-grow: 1;
   /*align-items: flex-end;*/
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #2D3E4F;
   text-align: right;
-  padding-right: 93px;
+  padding-right: 12%;
 
 }
 
 .sec-two-line {
-  width: 53%;
+  width: 75%;
   color: #dae4e5;
 }
 
 .left-side {
-  display: flex;
+  /*display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;*/
   flex-grow: 1;
-  flex-direction: column;
+  /*flex-direction: row;*/
   /*align-items: flex-end;*/
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #6F6F6F;
-  max-width: 76%;
-  min-width: 55%;
+  width: 75%;
+  /*min-width: 55%;*/
   font-size: 11px;
   line-height: 1.6em;
   text-align: right;
-  padding-right: 95px;
+  padding-left: 13%;
 }
 
 .sec-two-flexcontainer-right-side {
-  /*flex: 0 0 23em;*/
+  /*display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;*/
+  flex: 0 0 33%;
   padding-top: 80px;
   text-align: left;
+  align-items: center;
+  order: 1;
 }
 
 .title-right-column {
-  display: flex;
+  /*display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;*/
   flex-grow: 1;
-  align-items: flex-end;
-  flex-wrap: wrap;
+  /*align-items: flex-end;*/
+  /*align-items: center;*/
+  /*flex-wrap: wrap;*/
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #2D3E4F;
 }
 
 .title-right-column-1 {
-  display: flex;
+  /*display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;*/
   flex-grow: 1;
-  align-items: flex-end;
-  flex-wrap: wrap;
+  /*align-items: flex-end;*/
+  /*align-items: center;*/
+  /*flex-wrap: wrap;*/
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #E44D42;
@@ -201,21 +234,24 @@ button:hover {
 }
 
 .right-side {
-  display: flex;
+  /*display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;*/
   flex-grow: 1;
-  flex-direction: column;
+  /*flex-direction: row;*/
   /*align-items: flex-end;*/
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #6F6F6F;
-  width: 55%;
+  width: 75%;
   font-size: 11px;
   line-height: 1.6em;
   text-align: left;
+  /*align-items: center;*/
 }
 
 .sec-two-line-right {
-  width: 53%;
+  width: 73%;
   color: #dae4e5;
   margin: inherit;
 }
@@ -365,8 +401,8 @@ ul li {
 }
 
 .our-works-flexcontainer {
-  padding: 7% 14%;
-  margin: 0;
+  padding: 7% 20%;
+  /*margin: 0;*/
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -mox-box;
@@ -564,11 +600,13 @@ img {
 
 table {
   width: 100%;
+  width: 75%;
   border-collapse: collapse;
 }
 
 tr:nth-of-type(odd) {
   background: #eee;
+  padding: 3%;
 }
 
 th {
