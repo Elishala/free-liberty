@@ -660,8 +660,8 @@ img {
 }
 
 .line-separator {
-  height: 1px solid #DEDEDE;
-  background: #989898;
+  background-color: #989898;
+  border:  1px solid #DEDEDE;
 }
 
 .access {
@@ -719,13 +719,24 @@ img {
   padding-top: 20%;
 }
 
-/*.pricing-header-2 .pricing-header-3*/
+/*.pricing-header-3*/
 
 .standard-package-flexcontainer {
   flex: 0 0 20%;
   border: 2px solid red;
   padding: 1%;
 
+}
+
+.pricing-header-2 {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #2D3E4F;
+  background-color: #eee;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: lighter;
+  padding-top: 12%;
 }
 
 .professional-package-flexcontainer {
