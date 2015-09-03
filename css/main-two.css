@@ -1,3 +1,5 @@
+/*beginning of section one*/
+
 nav {
   background-color: #2D3E4F;
   width: 100%;
@@ -97,7 +99,6 @@ button:hover {
   margin: auto;
   color: #989898;
   width: 42%;
-  /*width: 475px;*/
   font-weight: lighter;
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
@@ -112,17 +113,10 @@ button:hover {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  /*flex: 0 0 auto;*/
   margin: 5%;
-  /*align-items: center;*/
 }
 
 .sec-two-flexcontainer-center {
-  /*display: -webkit-flex;
-  display: -ms-flexbox;
-  /*-webkit-flex-direction: row;
-  flex-direction: row;
-  display: flex;*/
   flex: 0 0 33%;
 }
 
@@ -131,9 +125,6 @@ button:hover {
   margin: auto;
   padding-top: 10%;
   width: 77%;
-  /*display: -webkit-flex;
-  display: flex;
-  height: 23%;*/
 }
 
 .phone-area img {
@@ -189,26 +180,14 @@ button:hover {
 }
 
 .title-right-column {
-  /*display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;*/
   flex-grow: 1;
-  /*align-items: flex-end;*/
-  /*align-items: center;*/
-  /*flex-wrap: wrap;*/
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #2D3E4F;
 }
 
 .title-right-column-1 {
-  /*display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;*/
   flex-grow: 1;
-  /*align-items: flex-end;*/
-  /*align-items: center;*/
-  /*flex-wrap: wrap;*/
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #E44D42;
@@ -216,12 +195,7 @@ button:hover {
 }
 
 .right-side {
-  /*display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;*/
   flex-grow: 1;
-  /*flex-direction: row;*/
-  /*align-items: flex-end;*/
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #6F6F6F;
@@ -229,7 +203,6 @@ button:hover {
   font-size: 11px;
   line-height: 1.6em;
   text-align: left;
-  /*align-items: center;*/
 }
 
 .sec-two-line-right {
@@ -245,7 +218,6 @@ button:hover {
     width: 100%;
     height: 872px;
     color: white;
-    /*padding-top: 65px;*/
 }
 
 .hero-text-three {
@@ -262,7 +234,6 @@ button:hover {
   margin: auto;
   color: #989898;
   width: 42%;
-  /*width: 475px;*/
   font-weight: lighter;
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
@@ -273,10 +244,6 @@ button:hover {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  /*width: 100%;*/
-  /*margin: 0 auto;
-  padding-left: 10%;*/
-
 }
 
 ul li {
@@ -290,7 +257,7 @@ ul li {
   max-width: 75%;
   justify-content: center;
 }
-/*this used to be li, which held it all together*/
+
 .sec-three-card {
   display: flex;
   width: 25%;
@@ -302,16 +269,12 @@ ul li {
 .flex-card {
   display: flex;
   flex-flow: row wrap;
-  /*flex-direction: row;
-  flex-wrap: wrap;*/
-  /*width: 27%;*/
 }
 
 .img-area-sec-three {
   text-align: center;
   margin: auto;
   width: 19%;
-  /*margin-bottom: -17px;*/
 }
 
 .img-area-sec-three img {
@@ -332,7 +295,6 @@ ul li {
 
 .flex-card-content {
   display: flex;
-  /*flex: 1 0 auto;*/
   flex-flow: row wrap;
 }
 
@@ -359,10 +321,8 @@ ul li {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #989898;
-  /*width: 55%;*/
   font-size: 10px;
   line-height: 1.6em;
-  /*margin-top: -13px;*/
   max-width: 75%;
   text-align: center;
   padding-left: 12%;
@@ -381,7 +341,6 @@ ul li {
 .sec-four {
   background-color: white;
   width: 100%;
-  /*height: 872px;*/
   display: flex;
   flex-direction: column;
 }
@@ -407,7 +366,6 @@ ul li {
 
 .our-works-flexcontainer {
   padding: 7% 20%;
-  /*margin: 0;*/
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -mox-box;
@@ -426,14 +384,12 @@ ul li {
   width: 155px;
   height: 105px;
   margin: 10px;
-  /*line-height: 100px;*/
 }
 
 .img-area-sec-four {
   text-align: -webkit-center;
   text-align: center;
   width: 100%;
-  /*padding-top: 25px;*/
   padding-top: 17%;
 }
 
@@ -465,8 +421,6 @@ img {
 .sec-five {
   background-color: #2D3E4F;
   width: 100%;
-  /*height: 872px;*/
-  /*color: white;*/
 }
 
 .hero-text-five {
@@ -480,7 +434,6 @@ img {
 
 .testimonials-littleboxes-flexcontainer {
   padding: 0% 28%;
-  /*margin: 0 72px;*/
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -mox-box;
@@ -497,17 +450,14 @@ img {
 .little-boxes {
   width: 100%;
   background-color: white;
-  /*padding: 5px;*/
   width: 35px;
   height: 35px;
   margin: 5px;
   border-radius: 3px;
-  /*line-height: 100px;*/
 }
 
 .little-boxes-quote{
   width: 100%;
-  /*padding: 5px;*/
   width: 35px;
   height: 35px;
   margin: 5px;
@@ -574,7 +524,6 @@ img {
   height: 55px;
   margin: 10px;
   margin: 1%;
-  /*line-height: 100px;*/
 }
 
 /*beginning of section six*/
@@ -602,7 +551,6 @@ img {
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
   font-size: 11px;
-  /*padding-bottom: 5%;*/
 }
 .pricing-table-main-flexcontainer {
   display: -webkit-flex;
@@ -833,7 +781,6 @@ img {
   /*color: #c9d4e0;*/
   width: 50%;
   font-size: 11px;
-  /*padding-top: 5%;*/
   padding-left: 15%;
 }
 
@@ -844,9 +791,6 @@ img {
   flex: 0 0 50%;
   justify-content: flex-start;
   padding-left: 15%;
-  /*text-align: left;
-  align-items: center;*/
-  /*order: 1;*/
 }
 
 .showcase-1-box {
@@ -900,6 +844,9 @@ img {
   font-size: 9px;
   text-align: left;
 }
+
+/*beginning of section eight*/
+
 
 @media only screen and (max-width: 901px) {
   .phone-area {
