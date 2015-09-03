@@ -392,7 +392,7 @@ ul li {
   padding-top: 17%;
 }
 
-img {
+.img-area-sec-four img {
   width: 10%;
 }
 
@@ -863,7 +863,7 @@ img {
   text-align: center;
   margin: auto;
   color: #989898;
-  width: 35%;
+  width: 40%;
   font-weight: lighter;
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
@@ -881,24 +881,30 @@ img {
   -webkit-flex-direction: row;
   flex-direction: row;
   justify-content: space-around;
-  margin: 5%;
+  margin: 0 auto;
   width: 75%;
-  /*padding: 7% 20%;*/
+  padding: 1%;
 
 }
 
 .our-team-flexcontainer-1 {
-  flex: 0 0 20%;
-  order: -1;
-  text-align: right;
-  padding-top: 2%;
+  flex: 0 0 25%;
+  /*order: -1;*/
+  text-align: center;
+  /*padding-top: 2%;*/
+  /*align-self: center;*/
+}
+
+.team-pic-1-area {
   align-self: center;
+  padding: 5% 0;
 }
 
 .team-pic-1 {
   /*flex: 0 0 20%;*/
-  background-color: red;
-  padding: 5px;
+  background-color: #eee;
+  background-color: #e2e0e0;
+  /*padding: 5px;*/
   width: 215px;
   height: 150px;
   margin: 10px;
@@ -911,8 +917,9 @@ img {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #2D3E4F;
+  padding: 5% 0;
   /*text-align: right;*/
-  padding-right: 32%;
+  /*padding-right: 32%;*/
 }
 
 .team-intro-1 {
@@ -920,22 +927,28 @@ img {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #6F6F6F;
-  width: 50%;
+  width: 100%;
   font-size: 11px;
   line-height: 1.6em;
   text-align: center;
 }
 
 .our-team-flexcontainer-2 {
-  flex: 0 0 20%;
-  text-align: right;
-  padding-top: 2%;
+  flex: 0 0 25%;
+  text-align: center;
+  /*padding-top: 2%;*/
+  /*align-self: center;*/
+}
+
+.team-pic-2-area {
   align-self: center;
+  padding: 5% 0;
 }
 
 .team-pic-2 {
-  background-color: blue;
-  padding: 5px;
+  background-color: #eee;
+  background-color: #e2e0e0;
+  /*padding: 5px;*/
   width: 215px;
   height: 150px;
   margin: 10px;
@@ -948,6 +961,8 @@ img {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #2D3E4F;
+  padding: 5% 0;
+
 }
 
 .team-intro-2 {
@@ -955,23 +970,29 @@ img {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #6F6F6F;
-  width: 50%;
+  width: 100%;
   font-size: 11px;
   line-height: 1.6em;
   text-align: center;
 }
 
 .our-team-flexcontainer-3 {
-  flex: 0 0 20%;
-  text-align: right;
-  padding-top: 2%;
+  flex: 0 0 25%;
+  text-align: center;
+  /*padding-top: 2%;*/
+  /*align-self: center;*/
+}
+
+.team-pic-3-area {
   align-self: center;
+  padding: 5% 0;
 }
 
 .team-pic-3 {
   flex: 0 0 20%;
-  background-color: gray;
-  padding: 5px;
+  background-color: #eee;
+  background-color: #e2e0e0;
+  /*padding: 5px;*/
   width: 215px;
   height: 150px;
   margin: 10px;
@@ -984,6 +1005,8 @@ img {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #2D3E4F;
+  padding: 5% 0;
+
 }
 
 .team-intro-3 {
@@ -991,18 +1014,19 @@ img {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #6F6F6F;
-  width: 50%;
+  width: 100%;
   font-size: 11px;
   line-height: 1.6em;
   text-align: center;
 }
 
 .social-media-area {
-
+  width: 100%;
 }
 
 .social-media-area img {
-
+  width: 45%;
+  padding: 9% 0;
 }
 
 /*beginning of media queries*/
