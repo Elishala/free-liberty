@@ -133,7 +133,6 @@ button:hover {
 }
 
 .sec-two-flexcontainer-left-side  {
-  text-align: right;
   flex: 0 0 33%;
   order: -1;
   text-align: right;
@@ -560,7 +559,7 @@ img {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   margin: 5%;
 }
 
@@ -732,7 +731,6 @@ img {
 
 .sec-seven {
   width: 100%;
-  height: 915px;
 }
 
 .sec-seven-main-flexcontainer {
@@ -847,6 +845,167 @@ img {
 
 /*beginning of section eight*/
 
+.sec-eight {
+  width: 100%;
+  color: white;
+}
+
+.hero-text-eight {
+  font-family: 'Poiret One', cursive;
+  color: #2D3E4F;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: lighter;
+  padding-top: 7%;
+}
+
+.sec-eight-header {
+  text-align: center;
+  margin: auto;
+  color: #989898;
+  width: 35%;
+  font-weight: lighter;
+  line-height: 1.4em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+}
+
+.our-team-main-flexcontainer {
+  -ms-box-orient: horizontal;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5%;
+  width: 75%;
+  /*padding: 7% 20%;*/
+
+}
+
+.our-team-flexcontainer-1 {
+  flex: 0 0 20%;
+  order: -1;
+  text-align: right;
+  padding-top: 2%;
+  align-self: center;
+}
+
+.team-pic-1 {
+  /*flex: 0 0 20%;*/
+  background-color: red;
+  padding: 5px;
+  width: 215px;
+  height: 150px;
+  margin: 10px;
+  /*order: -1;*/
+  line-height: 100px;
+}
+
+.team-name-1 {
+  flex-grow: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #2D3E4F;
+  /*text-align: right;*/
+  padding-right: 32%;
+}
+
+.team-intro-1 {
+  flex-grow: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #6F6F6F;
+  width: 50%;
+  font-size: 11px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.our-team-flexcontainer-2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-top: 2%;
+  align-self: center;
+}
+
+.team-pic-2 {
+  background-color: blue;
+  padding: 5px;
+  width: 215px;
+  height: 150px;
+  margin: 10px;
+  line-height: 100px;
+
+}
+
+.team-name-2 {
+  flex-grow: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #2D3E4F;
+}
+
+.team-intro-2 {
+  flex-grow: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #6F6F6F;
+  width: 50%;
+  font-size: 11px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.our-team-flexcontainer-3 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-top: 2%;
+  align-self: center;
+}
+
+.team-pic-3 {
+  flex: 0 0 20%;
+  background-color: gray;
+  padding: 5px;
+  width: 215px;
+  height: 150px;
+  margin: 10px;
+  line-height: 100px;
+
+}
+
+.team-name-3 {
+  flex-grow: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #2D3E4F;
+}
+
+.team-intro-3 {
+  flex-grow: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #6F6F6F;
+  width: 50%;
+  font-size: 11px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.social-media-area {
+
+}
+
+.social-media-area img {
+
+}
+
+/*beginning of media queries*/
 
 @media only screen and (max-width: 901px) {
   .phone-area {
