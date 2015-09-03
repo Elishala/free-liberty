@@ -622,29 +622,142 @@ img {
   font-size: 11px;
   padding-bottom: 5%;
 }
-
-table {
-  width: 100%;
-  width: 75%;
-  border-collapse: collapse;
+.pricing-table-main-flexcontainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5%;
 }
 
-tr:nth-of-type(odd) {
-  background: #eee;
-  padding: 3%;
+.basic-package-flexcontainer {
+  flex: 0 0 20%;
+  border: 1px solid #dedede;
+  padding: 1%;
+  height: 500px;
 }
 
-th {
-  background: #eee;
-  color: white;
-  font-weight: bold;
+.pricing-header-1  {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #2D3E4F;
+  background-color: #eee;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: lighter;
+  padding-top: 12%;
 }
 
-td, th {
-  padding: 6px;
-  border: 1px solid #ccc;
-  text-align: left;
+.price-mth {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #6F6F6F;
+  font-size: 11px;
 }
+
+.line-separator {
+  height: 1px solid #DEDEDE;
+  background: #989898;
+}
+
+.access {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #6F6F6F;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20%;
+
+}
+
+.food {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #6F6F6F;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.bev {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #6F6F6F;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.peeps {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #6F6F6F;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.bugger {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #6F6F6F;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.domain {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #6F6F6F;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20%;
+}
+
+/*.pricing-header-2 .pricing-header-3*/
+
+.standard-package-flexcontainer {
+  flex: 0 0 20%;
+  border: 2px solid red;
+  padding: 1%;
+
+}
+
+.professional-package-flexcontainer {
+  flex: 0 0 20%;
+  border: 2px solid gray;
+  padding: 1%;
+
+}
+
+.enterprise-package-flexcontainer {
+  flex: 0 0 20%;
+  border: 2px solid gray;
+  padding: 1%;
+
+}
+
+.pricing-btn-area {
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+  color: #2D3E4F;
+  background-color: white;
+  width: 124px;
+  font-size: 9px;
+  border: none;
+}
+
+.pricing-btn-area:hover {
+  background-color: blue;
+  color: orange;
+}
+
 
 @media only screen and (max-width: 901px) {
   .phone-area {
