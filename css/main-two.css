@@ -1056,11 +1056,28 @@ ul li {
   font-size: x-small;
   font-size: 11px;
   padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 /*beginning of section ten*/
 
 .sec-ten {
+  margin: -21px;
+}
+
+.arrow-up-area {
+  text-align: center;
+  margin: auto;
+  width: 14%;
+}
+
+.arrow-up-area img {
+  width: 30%;
+}
+
+/*beginning of footer*/
+
+footer {
   background-color: white;
   width: 100%;
 }
