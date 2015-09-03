@@ -759,14 +759,14 @@ img {
 
 .professional-package-flexcontainer {
   flex: 0 0 20%;
-  border: 1px solid #E44D42;
+  border: 1px solid #dedede;
   padding: 1%;
 
 }
 
 .enterprise-package-flexcontainer {
   flex: 0 0 20%;
-  border: 1px solid #E44D42;
+  border: 1px solid #dedede;
   padding: 1%;
 
 }
@@ -798,6 +798,119 @@ img {
   color: orange;
 }
 
+/*beginning of section seven*/
+
+.sec-seven {
+  width: 100%;
+  height: 615px;
+}
+
+.sec-seven-main-flexcontainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /*margin: 5%;*/
+
+}
+
+.sec-seven-leftside {
+  background-color: #eee;
+  width: 50%;
+}
+
+.sec-seven-rightside {
+  background-color: #2D3E4F;
+  width: 50%;
+}
+
+.hero-text-seven {
+  font-family: sans-serif;
+  font-family: 'Poiret One', cursive;
+  color: white;
+  text-align: left;
+  font-size: 1.7em;
+  font-weight: lighter;
+  line-height: 1.4em;
+  padding-top: 15%;
+  padding-left: 15%;
+
+}
+
+.sec-seven-header {
+  font-weight: lighter;
+  line-height: 1.4em;
+  font-family: 'Roboto', sans-serif;
+  color: #989898;
+  width: 50%;
+  font-size: 11px;
+  /*padding-top: 5%;*/
+  padding-left: 15%;
+}
+
+.sec-seven-flexcontainer-rightside {
+  flex: 0 0 50%;
+  text-align: left;
+  align-items: center;
+  /*order: 1;*/
+}
+
+.showcase-1-box {
+  background: white;
+  padding: 5px;
+  width: 105px;
+  height: 75px;
+  margin: 10px;
+  line-height: 100px;
+}
+
+.showcase-2-box {
+  background: white;
+  padding: 5px;
+  width: 105px;
+  height: 75px;
+  margin: 10px;
+  line-height: 100px;
+}
+
+.showcase-1-box-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 18px;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+.showcase-2-box-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 18px;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+.showcase-1-box-detail {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #6F6F6F;
+  font-size: 11px;
+  text-align: left;
+
+}
+
+.showcase-2-box-detail {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #6F6F6F;
+  font-size: 11px;
+  text-align: left;
+}
 
 @media only screen and (max-width: 901px) {
   .phone-area {
