@@ -835,27 +835,32 @@ img {
 }
 
 .sec-seven-flexcontainer-rightside {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
   flex: 0 0 50%;
-  text-align: left;
-  align-items: center;
+  justify-content: flex-start;
+  padding-left: 15%;
+  /*text-align: left;
+  align-items: center;*/
   /*order: 1;*/
 }
 
 .showcase-1-box {
   background: white;
-  padding: 5px;
+  /*padding: 5px;*/
   width: 105px;
   height: 75px;
-  margin: 10px;
+  /*margin: 10px;*/
   line-height: 100px;
 }
 
 .showcase-2-box {
   background: white;
-  padding: 5px;
+  /*padding: 5px;*/
   width: 105px;
   height: 75px;
-  margin: 10px;
+  margin: 0 10px;
   line-height: 100px;
 }
 
