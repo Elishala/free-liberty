@@ -1066,7 +1066,32 @@ ul li {
 }
 
 .copyright {
+  text-align: center;
+  margin: auto;
+  color: #989898;
+  width: 32%;
+  font-weight: lighter;
+  line-height: 1.6em;
+  font-family: 'Roboto', sans-serif;
+  font-size: x-small;
+  font-size: 9px;
+  padding-top: 2%;
+}
 
+.highlight {
+  color: #E44D42;
+}
+
+.social-media-area-footer {
+  text-align: center;
+  margin: auto;
+  width: 32%;
+
+}
+
+.social-media-area-footer img {
+  width: 30%;
+  padding: 5%;
 }
 
 /*beginning of media queries*/
