@@ -620,7 +620,7 @@ img {
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
   font-size: 11px;
-  padding-bottom: 5%;
+  /*padding-bottom: 5%;*/
 }
 .pricing-table-main-flexcontainer {
   display: -webkit-flex;
@@ -656,6 +656,14 @@ img {
   font-family: sans-serif;
   font-family: 'Roboto', sans-serif;
   color: #6F6F6F;
+  font-size: 11px;
+}
+
+.price-mth-stand {
+  color: white;
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: white;
   font-size: 11px;
 }
 
@@ -719,16 +727,25 @@ img {
   padding-top: 20%;
 }
 
-/*.pricing-header-3*/
-
 .standard-package-flexcontainer {
   flex: 0 0 20%;
-  border: 2px solid red;
+  border: 1px solid #E44D42;
   padding: 1%;
 
 }
 
 .pricing-header-2 {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #E44D42;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: lighter;
+  padding-top: 12%;
+}
+
+.pricing-header-3 {
   font-family: sans-serif;
   font-family: 'Roboto', sans-serif;
   color: #2D3E4F;
@@ -739,18 +756,30 @@ img {
   padding-top: 12%;
 }
 
+
 .professional-package-flexcontainer {
   flex: 0 0 20%;
-  border: 2px solid gray;
+  border: 1px solid #E44D42;
   padding: 1%;
 
 }
 
 .enterprise-package-flexcontainer {
   flex: 0 0 20%;
-  border: 2px solid gray;
+  border: 1px solid #E44D42;
   padding: 1%;
 
+}
+
+.pricing-header-4 {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #2D3E4F;
+  background-color: #eee;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: lighter;
+  padding-top: 12%;
 }
 
 .pricing-btn-area {
