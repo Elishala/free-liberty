@@ -1029,6 +1029,46 @@ ul li {
   padding: 9% 0;
 }
 
+/*beginning of section nine*/
+
+.sec-nine {
+  background-color: #2D3E4F;
+  width: 100%;
+}
+
+.hero-text-nine {
+  font-family: 'Poiret One', cursive;
+  color: white;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: lighter;
+  padding-top: 7%;
+}
+
+.sec-nine-header {
+  text-align: center;
+  margin: auto;
+  color: #c9d4e0;
+  width: 45%;
+  font-weight: lighter;
+  line-height: 1.6em;
+  font-family: 'Roboto', sans-serif;
+  font-size: x-small;
+  font-size: 11px;
+  padding-top: 1%;
+}
+
+/*beginning of section ten*/
+
+.sec-ten {
+  background-color: white;
+  width: 100%;
+}
+
+.copyright {
+
+}
+
 /*beginning of media queries*/
 
 @media only screen and (max-width: 901px) {
