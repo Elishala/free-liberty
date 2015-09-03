@@ -500,7 +500,7 @@ img {
 
 .testimonials-littleboxes-flexcontainer {
   padding: 0% 28%;
-  margin: 0 72px;
+  /*margin: 0 72px;*/
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -mox-box;
@@ -511,6 +511,7 @@ img {
   flex-wrap: wrap;
   -webkit-flex-direction: row;
   flex-direction: row;
+  justify-content: center;
 }
 
 .little-boxes {
@@ -583,6 +584,7 @@ img {
   flex-wrap: wrap;
   -webkit-flex-direction: row;
   flex-direction: row;
+  justify-content: center;
 }
 
 .testimonials-box {
