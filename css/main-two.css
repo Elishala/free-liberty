@@ -105,12 +105,15 @@ button:hover {
 }
 
 .sec-two-main-flexcontainer {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-flex-direction: row;
   flex-direction: row;
   justify-content: center;
   margin: 5%;
@@ -240,7 +243,13 @@ button:hover {
 }
 
 .sec-three-flexcontainer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-flow: row wrap;
   justify-content: center;
 }
@@ -364,17 +373,19 @@ ul li {
 }
 
 .our-works-flexcontainer {
-  padding: 7% 20%;
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -mox-box;
   display: -ms-flex;
+  display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-flex-direction: row;
   flex-direction: row;
+  padding: 7% 20%;
 }
 
 .work-1 {
@@ -432,18 +443,20 @@ ul li {
 }
 
 .testimonials-littleboxes-flexcontainer {
-  padding: 0% 28%;
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -mox-box;
+  display: -ms-flexbox;
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-flex-direction: row;
   flex-direction: row;
   justify-content: center;
+  padding: 0% 28%;
 }
 
 .little-boxes {
@@ -501,19 +514,21 @@ ul li {
 }
 
 .testimonials-flexcontainer {
-  padding: 7% 8%;
-  margin: 0;
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -mox-box;
+  display: -ms-flexbox;
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   -webkit-flex-direction: row;
   flex-direction: row;
   justify-content: center;
+  margin: 0;
+  padding: 7% 8%;
 }
 
 .testimonials-box {
@@ -552,6 +567,8 @@ ul li {
   font-size: 11px;
 }
 .pricing-table-main-flexcontainer {
+  display: -webkit-box;
+  display: -moz-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -734,12 +751,15 @@ ul li {
 }
 
 .sec-seven-main-flexcontainer {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-flex-direction: row;
   flex-direction: row;
   justify-content: center;
   height: 475px;
@@ -872,8 +892,10 @@ ul li {
 
 .our-team-main-flexcontainer {
   -ms-box-orient: horizontal;
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -1060,13 +1082,19 @@ ul li {
 }
 
 .form-flexcontainer {
-  width: 100%;
   /*height: 50%;*/
   /*margin: 5%;*/
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 
 .form-leftside {
