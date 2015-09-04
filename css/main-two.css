@@ -1122,33 +1122,13 @@ input {
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
   color: #989898;
-  width: 100%;
+  width: 91%;
   margin-bottom: 11px;
 }
 
 .pw-area {
-  border-radius: 2px;
-  font-size: 11px;
-  font-weight: lighter;
-  line-height: 1.4em;
-  font-family: 'Roboto', sans-serif;
-  color: #989898;
-  width: 65%;
   margin: 5px 0;
-}
 
-.submit-form {
-  /*padding: 1.1em;*/
-  border-radius: 2px;
-  /*font-size: 11px;
-  font-weight: lighter;
-  line-height: 1.4em;
-  font-family: 'Roboto', sans-serif;
-  background-color: #E44D42;
-  color: white;*/
-  width: 25%;
-  /*margin-bottom: 11px;*/
-  padding-left: 80%;
 }
 
 .submit-form {
@@ -1158,18 +1138,35 @@ input {
   font-family: 'Roboto', sans-serif;
   background-color: #E44D42;
   color: white;
+  float: right;
+  border-radius: 2px;
+  width: 25%;
+
 }
+
+.submit-btn {
+  overflow: hidden;
+  padding-right: .5em;
+}
+
+.scribble {
+  text-align: right;
+  overflow: hidden;
+  width: 25%;
+}
+
 
 /*beginning of section ten*/
 
 .sec-ten {
-  margin: -21px;
+  margin: -23px;
 }
 
 .arrow-up-area {
   text-align: center;
   margin: auto;
   width: 14%;
+  padding-bottom: 1%;
 }
 
 .arrow-up-area img {
