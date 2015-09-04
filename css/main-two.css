@@ -31,13 +31,13 @@ nav {
   line-height: 1.4em;
 }
 
-.btn-area {
+.get-started-btn-area {
   text-align: center;
   margin: auto;
   padding: 25px;
 }
 
-.get-started-button {
+.get-started-btn {
   background-color: #E44D42;
   color: white;
   margin: 0 auto;
@@ -48,7 +48,7 @@ nav {
   padding: 9px;
 }
 
-.get-started-button:hover {
+.get-started-btn:hover {
   background-color: white;
   color: #E44D42;
 }
