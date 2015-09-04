@@ -37,7 +37,7 @@ nav {
   padding: 25px;
 }
 
-button {
+.get-started-button {
   background-color: #E44D42;
   color: white;
   margin: 0 auto;
@@ -48,7 +48,7 @@ button {
   padding: 9px;
 }
 
-button:hover {
+.get-started-button:hover {
   background-color: white;
   color: #E44D42;
 }
@@ -731,17 +731,44 @@ ul li {
 .pricing-btn-area {
   text-align: center;
   margin: auto;
-  padding: 25px;
-  color: #2D3E4F;
-  background-color: white;
+  padding: 30px;
+  width: 125px;
+  font-size: 9px;
+  border: none;
+}
+
+.signup {
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  color: white;
+  background-color: #2D3E4F;
   width: 124px;
   font-size: 9px;
   border: none;
 }
 
-.pricing-btn-area:hover {
-  background-color: blue;
-  color: orange;
+.signup:hover {
+  background-color: #6386aa;
+  color: #E44D42;
+  color: white;
+}
+
+.signup-2 {
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  color: white;
+  background-color: #E44D42;
+  width: 124px;
+  font-size: 9px;
+  border: none;
+}
+
+.signup-2:hover {
+  background-color: #6386aa;
+  color: #E44D42;
+  color: white;
 }
 
 /*beginning of section seven*/
