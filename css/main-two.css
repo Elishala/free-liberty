@@ -1170,7 +1170,7 @@ input {
 }
 
 .arrow-up-area img {
-  width: 30%;
+  width: 25%;
 }
 
 /*beginning of footer*/
@@ -1184,7 +1184,7 @@ footer {
   text-align: center;
   margin: auto;
   color: #989898;
-  width: 32%;
+  width: 20%;
   font-weight: lighter;
   line-height: 1.6em;
   font-family: 'Roboto', sans-serif;
