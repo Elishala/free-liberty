@@ -156,7 +156,7 @@ nav {
 .sec-two-line {
   width: 40%;
   color: #dae4e5;
-  padding-left: 25%
+  padding-left: 25%;
   float: left;
 }
 
@@ -234,7 +234,7 @@ nav {
 .main-sec-three-header {
   text-align: center;
   margin: auto;
-  color: #989898;
+  color: #c9d4e0;
   width: 42%;
   font-weight: lighter;
   line-height: 1.4em;
@@ -328,7 +328,7 @@ ul li {
   flex: 1 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
-  color: #989898;
+  color: #c9d4e0;
   font-size: 10px;
   line-height: 1.6em;
   max-width: 75%;
@@ -485,7 +485,7 @@ ul li {
 .sec-five-header {
   text-align: center;
   margin: auto;
-  color: #989898;
+  color: #c9d4e0;
   width: 42%;
   font-weight: lighter;
   line-height: 1.4em;
@@ -821,10 +821,7 @@ ul li {
   font-weight: lighter;
   line-height: 1.4em;
   font-family: 'Roboto', sans-serif;
-  color: #989898;
-  color: #becbd8;
-  color: #cdd1d6;
-  /*color: #c9d4e0;*/
+  color: #c9d4e0;
   width: 50%;
   font-size: 11px;
   padding-left: 15%;
@@ -877,7 +874,7 @@ ul li {
 .showcase-1-box-detail {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
-  color: #cdd1d6;
+  color: #c9d4e0;
   font-size: 9px;
   text-align: left;
 
@@ -886,7 +883,7 @@ ul li {
 .showcase-2-box-detail {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
-  color: #cdd1d6;
+  color: #c9d4e0;
   font-size: 9px;
   text-align: left;
 }
@@ -939,10 +936,8 @@ ul li {
 
 .our-team-flexcontainer-1 {
   flex: 0 0 25%;
-  /*order: -1;*/
   text-align: center;
-  /*padding-top: 2%;*/
-  /*align-self: center;*/
+
 }
 
 .team-pic-1-area {
@@ -951,14 +946,11 @@ ul li {
 }
 
 .team-pic-1 {
-  /*flex: 0 0 20%;*/
   background-color: #eee;
   background-color: #e2e0e0;
-  /*padding: 5px;*/
   width: 215px;
   height: 150px;
   margin: 10px;
-  /*order: -1;*/
   line-height: 100px;
 }
 
@@ -968,8 +960,7 @@ ul li {
   font-weight: lighter;
   color: #2D3E4F;
   padding: 5% 0;
-  /*text-align: right;*/
-  /*padding-right: 32%;*/
+
 }
 
 .team-intro-1 {
@@ -985,9 +976,6 @@ ul li {
 
 .our-team-flexcontainer-2 {
   flex: 0 0 25%;
-  text-align: center;
-  /*padding-top: 2%;*/
-  /*align-self: center;*/
 }
 
 .team-pic-2-area {
@@ -998,7 +986,6 @@ ul li {
 .team-pic-2 {
   background-color: #eee;
   background-color: #e2e0e0;
-  /*padding: 5px;*/
   width: 215px;
   height: 150px;
   margin: 10px;
@@ -1029,8 +1016,7 @@ ul li {
 .our-team-flexcontainer-3 {
   flex: 0 0 25%;
   text-align: center;
-  /*padding-top: 2%;*/
-  /*align-self: center;*/
+
 }
 
 .team-pic-3-area {
@@ -1042,7 +1028,6 @@ ul li {
   flex: 0 0 20%;
   background-color: #eee;
   background-color: #e2e0e0;
-  /*padding: 5px;*/
   width: 215px;
   height: 150px;
   margin: 10px;
@@ -1110,8 +1095,6 @@ ul li {
 }
 
 .form-flexcontainer {
-  /*height: 50%;*/
-  /*margin: 5%;*/
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -1126,23 +1109,13 @@ ul li {
 }
 
 .form-leftside {
-  /*width: 65%;*/
-  /*height: 50%;*/
-  /*margin: 5%;*/
   display: flex;
   order: -1;
   align-self: flex-start;
   flex: 0 1 auto;
 }
 
-form {
- /*margin: 0 auto;*/
-}
-
-
 .message-area {
-  /*width: 100%;*/
-  /*height: 50%;*/
   padding: .3em;
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
@@ -1166,8 +1139,6 @@ textarea {
   display: flex;
   width: 43%;
   padding-left: 5%;
-  /*height: 50%;*/
-  /*margin: 5%;*/
 }
 
 input {
@@ -1313,38 +1284,21 @@ footer {
   }
 
   .sec-two-flexcontainer-left-side {
-    /*display: flex;*/
     max-width: 50%;
   }
 
   .sec-two-flexcontainer-right-side {
-    /*display: flex;*/
     max-width: 50%;
 
   }
 
   .sec-two-flexcontainer-center {
     display: none;
-    /*max-width: 25%;*/
   }
 
  .phone-area {
      display: none;
    }
-
-
-
-
-
-  /*.column {
-    float: none;
-    width: 100%;
-    padding: 0px;
-    margin: 0 0 40px 0;
-  }
-  #hero h2 {
-    font-size: 200%;
-  }*/
 
 
 }
