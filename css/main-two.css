@@ -120,6 +120,8 @@ nav {
 }
 
 .sec-two-flexcontainer-center {
+  display: -webkit-flex;
+  max-width: 33%;
   flex: 0 0 33%;
 }
 
