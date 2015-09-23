@@ -986,6 +986,7 @@ ul li {
 
 .our-team-flexcontainer-2 {
   flex: 0 0 25%;
+  text-align: center;
 }
 
 .team-pic-2-area {
