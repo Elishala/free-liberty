@@ -110,7 +110,7 @@ nav {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
+  /*-webkit-flex-wrap: wrap;*/
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-flex-direction: row;
