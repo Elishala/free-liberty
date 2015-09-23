@@ -595,7 +595,7 @@ ul li {
   flex: 0 0 20%;
   border: 1px solid #dedede;
   padding: 1%;
-  height: 500px;
+  /*height: 500px;*/
 }
 
 .pricing-header-1  {
