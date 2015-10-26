@@ -1264,6 +1264,12 @@ footer {
   }
 }
 
+@media only screen and (max-width: 1100px) {
+  .sec-two {
+    height: 5%;
+  }
+}
+
 @media only screen and (max-width: 940px) {
   .pricing-table-main-flexcontainer {
     margin: 3%;
@@ -1275,20 +1281,48 @@ footer {
 }
 
 @media only screen and (max-width: 901px) {
-  /*.phone-area {
-    display: none;
-  }*/
   .sec-two-flexcontainer-left-side {
     flex-grow: 3;
   }
   .sec-two-flexcontainer-right-side {
     flex-grow: 3;
   }
+  .phone-area {
+    width: 88%;
+  }
 }
 
-@media only screen and (max-width: 760px ) {
+@media only screen and (max-width: 868px) {
   .phone-area {
-    display: none;
+    width: 88%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .section-two-main-flexcontianer {
+    margin: 3%;
+  }
+  .phone-area {
+    width: 100%;
+  }
+  .sec-two-flexcontainer-left-side {
+    margin: 0 3px;
+  }
+  .left-side {
+    padding: 3%;
+  }
+  .sec-two-line {
+    float: none;
+  }
+  .title-left-column-left {
+    padding-left: 17%;
+    float: none;
+  }
+  .right-side {
+    width: inherit;
+  }
+  .sec-two-line-right {
+    width: inherit;
   }
 }
 
