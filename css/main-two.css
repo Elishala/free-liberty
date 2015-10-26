@@ -179,16 +179,16 @@ nav {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #6F6F6F;
-  width: 50%;
+  /*width: 50%;*/
   font-size: 11px;
   line-height: 1.6em;
   text-align: right;
-  padding-left: 50%;
+  padding-left: 42%;
 }
 
 .sec-two-flexcontainer-right-side {
   flex: 0 0 33%;
-  padding-top: 2%;
+  /*padding-top: 2%;*/
   text-align: left;
   align-items: center;
   order: 1;
