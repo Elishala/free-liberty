@@ -275,6 +275,7 @@ ul li {
 }
 
 .flex-sq-group {
+  display: -webkit-flex;
   display: flex;
   flex-flow: row wrap;
   max-width: 75%;
@@ -1257,6 +1258,15 @@ footer {
 }
 
 /*beginning of media queries*/
+@media only screen and (max-width: 940px) {
+  .pricing-table-main-flexcontainer {
+    margin: 3%;
+  }
+
+  .pricing-btn-area {
+    padding: 10px;
+  }
+}
 
 @media only screen and (max-width: 901px) {
   .phone-area {
