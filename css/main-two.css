@@ -1268,7 +1268,27 @@ footer {
   .sec-two {
     height: 5%;
   }
+  .sec-three-card {
+    padding: 1%;
+  }
 }
+
+@media only screen and (max-width: 1098px) {
+  .sec-three-header-time {
+    padding-left: 4%;
+  }
+  .sec-three-header {
+    padding-left: 17%;
+  }
+}
+
+@media only screen and (max-width: 1005px) {
+  .sec-three-header {
+    padding-left: 15%;
+  }
+  .sec-three-header-time {
+    font-size: 1em;
+  }
 
 @media only screen and (max-width: 940px) {
   .pricing-table-main-flexcontainer {
