@@ -1368,29 +1368,37 @@ footer {
     width: auto;
 
   }
-
   .sec-two-main-flexcontainer {
     flex-direction: row;
     flex: 2;
     max-width: 100%;
   }
-
   .sec-two-flexcontainer-left-side {
     max-width: 50%;
   }
-
   .sec-two-flexcontainer-right-side {
     max-width: 50%;
-
   }
-
   .sec-two-flexcontainer-center {
     display: none;
   }
-
  .phone-area {
      display: none;
    }
+}
+@media only screen and (max-width: 599px) {
+  .main-sec-three-header {
+    width: 75%;
+  }
+}
 
+@media only screen and (max-width: 400px) {
+  .sec-three {
+    height: 1505px;
+  }
 
+  .sec-three-card {
+    width: 75%;
+    padding: 1%;
+  }
 }
