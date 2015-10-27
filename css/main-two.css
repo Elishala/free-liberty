@@ -1390,11 +1390,27 @@ footer {
   .main-sec-three-header {
     width: 75%;
   }
+  .sec-three {
+    height: 1250px;
+  }
+
+  .sec-three-card {
+    width: 75%;
+    /*padding: 1%;*/
+  }
+  .sec-three-header {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .sec-three-header-time {
+    font-size: 1.1em;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .sec-three {
-    height: 1505px;
+    height: 1175px;
   }
 
   .sec-three-card {
