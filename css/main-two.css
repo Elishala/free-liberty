@@ -1468,6 +1468,9 @@ footer {
   .pricing-header-4 {
     font-size: 1.2em;
   }
+  .sec-nine-header {
+    width: 75%;
+  }
 }
 @media only screen and (max-width: 560px) {
   .sec-seven-leftside {
@@ -1554,5 +1557,12 @@ footer {
   }
   .pricing-header-4 {
     font-size: .8em;
+  }
+  .team-pic-1 {
+    width: 235px;
+  }.team-pic-2 {
+    width: 235px;
+  }.team-pic-3 {
+    width: 235px;
   }
 }
