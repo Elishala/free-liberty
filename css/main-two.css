@@ -1406,6 +1406,20 @@ footer {
     font-size: 1.1em;
     margin: 0 auto;
   }
+  .sec-six-header {
+    width: 75%;
+  }
+  .signup {
+    padding: 9px;
+    width: 90px;
+  }
+  .pricing-btn-area {
+    width: 92px;
+  }
+  .signup-2 {
+    padding: 9px;
+    width: 90px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
