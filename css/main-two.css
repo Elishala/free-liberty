@@ -1310,6 +1310,18 @@ footer {
   .phone-area {
     width: 88%;
   }
+  .sec-eight-header {
+    width: 55%;
+  }
+  .team-pic-1 {
+    width: 150px;
+  }
+  .team-pic-2 {
+    width: 150px;
+  }
+  .team-pic-3 {
+    width: 150px;
+  }
 }
 
 @media only screen and (max-width: 868px) {
@@ -1344,8 +1356,14 @@ footer {
   .sec-two-line-right {
     width: inherit;
   }
+  .sec-eight-header{
+    width: 75%;
+  }
+  .our-team-main-flexcontainer {
+    width: inherit;
+    padding: inherit;
+  }
 }
-
 @media only screen and (max-width: 640px)  {
   .hero-text {
     font-size: 150%;
@@ -1483,6 +1501,24 @@ footer {
   }
   .pricing-header-4 {
     font-size: 1.1em;
+  }
+  .our-team-flexcontainer-1 {
+    flex: 0 0 75%;
+  }
+  .team-pic-1 {
+    width: 325px;
+  }
+  .our-team-flexcontainer-2 {
+    flex: 0 0 75%;
+  }
+  .team-pic-2 {
+    width: 325px;
+  }
+  .our-team-flexcontainer-3 {
+    flex: 0 0 75%;
+  }
+  .team-pic-3 {
+    width: 325px;
   }
 }
 
