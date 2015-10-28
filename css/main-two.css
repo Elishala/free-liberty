@@ -1451,6 +1451,15 @@ footer {
     font-size: 1.2em;
   }
 }
+@media only screen and (max-width: 560px) {
+  .sec-seven-leftside {
+    width: auto;
+  }
+  .sec-seven-rightside {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 540px) {
   .signup {
     padding: 7px;
