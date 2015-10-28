@@ -1482,9 +1482,32 @@ footer {
   .sec-three {
     height: 1175px;
   }
-
   .sec-three-card {
     width: 75%;
     padding: 1%;
+  }
+  .signup {
+    padding: 5px;
+    width: 72px;
+  }
+  .pricing-btn-area {
+    width: 72px;
+    padding: inherit;
+  }
+  .signup-2 {
+    padding: 5px;
+    width: 72px;
+  }
+  .pricing-header-1 {
+    font-size: .8em;
+  }
+  .pricing-header-2 {
+    font-size: .8em;
+  }
+  .pricing-header-3 {
+    font-size: .8em;
+  }
+  .pricing-header-4 {
+    font-size: .8em;
   }
 }
