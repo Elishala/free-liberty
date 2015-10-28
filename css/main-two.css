@@ -1350,23 +1350,18 @@ footer {
   .hero-text {
     font-size: 150%;
   }
-
   .scroll-text {
     display: none;
    }
-
   .img-area {
     display: none;
   }
-
   .img-area img {
      display: none;
   }
-
   .sec-two-header {
     font-size: 50%;
     width: auto;
-
   }
   .sec-two-main-flexcontainer {
     flex-direction: row;
@@ -1382,8 +1377,19 @@ footer {
   .sec-two-flexcontainer-center {
     display: none;
   }
- .phone-area {
+  .phone-area {
      display: none;
+   }
+  .signup {
+     padding: 11px;
+     width: 85px;
+   }
+  .pricing-btn-area {
+     width: 100px;
+   }
+  .signup-2 {
+     padding: 11px;
+     width: 85px;
    }
 }
 @media only screen and (max-width: 599px) {
@@ -1431,9 +1437,11 @@ footer {
   }
   .pricing-header-4 {
     font-size: 1.2em;
-
   }
 }
+@media only screen and (max-width: 599px) {
+
+
 
 @media only screen and (max-width: 400px) {
   .sec-three {
